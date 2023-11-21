@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6615810-eb07-4989-8e0e-bca665854fab" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/OjManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/common/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/common/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/common/ResultUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/config/Knife4jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/constant/UserConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/exception/ThrowUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/model/dto/User/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/model/enums/UserRoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/model/vo/LoginUserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJ-management/src/test/java/com/jjn/ojManagement/OjManagementApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/OJ-management" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2YRDCeDUgguEiOisrNwDdVkHbXq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "spring.configuration.checksum": "70de1d358a5f1d4e5a4cecff85cdecd4",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jjn.ojManagement.model.dto" />
+      <recent name="com.jjn.ojManagement.model.vo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="OjManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="OJ-management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jjn.ojManagement.OjManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a6615810-eb07-4989-8e0e-bca665854fab" name="变更" comment="" />
+      <created>1700479373968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700479373968</updated>
+      <workItem from="1700479375404" duration="9419000" />
+      <workItem from="1700547332715" duration="2894000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
