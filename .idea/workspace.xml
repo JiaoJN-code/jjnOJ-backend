@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6615810-eb07-4989-8e0e-bca665854fab" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/OjManagementApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/common/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/common/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/common/ResultUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/config/Knife4jConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/constant/UserConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/exception/ThrowUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/model/dto/User/UserLoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/model/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/model/enums/UserRoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/model/vo/LoginUserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/java/com/jjn/ojManagement/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJ-management/src/test/java/com/jjn/ojManagement/OjManagementApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a6615810-eb07-4989-8e0e-bca665854fab" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +18,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/OJ-management" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4cce8f29-cdcd-4fc8-a0b3-d475950b5bd1" />
+        <option name="url" value="git@github.com:JiaoJN-code/jjnOJ-backend.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -118,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700479373968</updated>
       <workItem from="1700479375404" duration="9419000" />
-      <workItem from="1700547332715" duration="2894000" />
+      <workItem from="1700547332715" duration="3509000" />
     </task>
     <servers />
   </component>
