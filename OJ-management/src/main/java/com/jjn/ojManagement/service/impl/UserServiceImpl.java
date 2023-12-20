@@ -50,11 +50,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "密码错误");
         }
         // 2. 密码加密
-        String md5Password = DigestUtils.md5DigestAsHex((SALT + userPassword).getBytes());
+//        String md5Password = DigestUtils.md5DigestAsHex((SALT + userPassword).getBytes());
         // 3. 根据用户名,密码查询数据库
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("userAccount", userAccount);
-        queryWrapper.eq("userPassword", md5Password);
+        queryWrapper.eq("userPassword", userPassword);
         User user = this.baseMapper.selectOne(queryWrapper);
         // user为空
         if (Objects.isNull(user)) {
@@ -67,6 +67,28 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         request.getSession().setAttribute(UserConst.USER_LOGIN_STATE, loginUserVo);
         // 5. 返回
         return loginUserVo;
+    }
+
+    /**
+     * 获取当前登录用户
+     *
+     * @param request
+     * @return
+     */
+    @Override
+    public LoginUserVo getLoginUser(HttpServletRequest request) {
+        // 1. 判断是否登录
+        LoginUserVo loginUserVo = (LoginUserVo) request.getSession().getAttribute(UserConst.USER_LOGIN_STATE);
+        if (Objects.isNull(loginUserVo) || Objects.isNull(loginUserVo.getId())) {
+            throw new BusinessException(ErrorCode.NOT_LOGIN_ERROR);
+        }
+        return loginUserVo;
+    }
+
+    @Override
+    public Boolean isAdmin(HttpServletRequest request) {
+        LoginUserVo loginUser = (LoginUserVo) request.getSession().getAttribute(UserConst.USER_LOGIN_STATE);
+        return loginUser.getUserRole().equals(UserConst.ADMIN_ROLE);
     }
 }
 

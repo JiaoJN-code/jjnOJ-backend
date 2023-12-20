@@ -14,4 +14,13 @@ import javax.servlet.http.HttpServletRequest;
 public interface UserService extends IService<User> {
     LoginUserVo userLogin(String userAccount, String userPassword, HttpServletRequest request);
 
+    LoginUserVo getLoginUser(HttpServletRequest request);
+
+    /**
+     * 判断当前用户是否为管理员
+     * @param request
+     * @return
+     */
+    Boolean isAdmin(HttpServletRequest request);
+
 }

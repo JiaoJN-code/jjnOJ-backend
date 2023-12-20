@@ -24,6 +24,7 @@ import java.util.Objects;
 @RestController
 @RequestMapping("/user")
 @Slf4j
+@CrossOrigin(origins = "*")
 public class UserController {
     @Resource
     private UserService userService;
@@ -41,5 +42,10 @@ public class UserController {
         }
         LoginUserVo loginUserVo = userService.userLogin(userAccount, userPassword, request);
         return ResultUtils.success(loginUserVo);
+    }
+
+    @GetMapping("/getLoginUser")
+    public BaseResponse<LoginUserVo> getLoginUser(HttpServletRequest request) {
+        return ResultUtils.success(userService.getLoginUser(request));
     }
 }
